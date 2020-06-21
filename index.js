@@ -1,7 +1,6 @@
 const express = require('express')
 const cookieParser = require('cookie-parser')
 const auth = require('basic-auth')
-const e = require('express')
 
 const app = express()
 app.use(cookieParser())
